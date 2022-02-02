@@ -10,6 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
+    outline: none!important;
 }
 
 a:hover {
@@ -459,6 +460,10 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
+button {
+    outline: none!important;
+}
+
 .btn-rd {
     border-radius: 40px;
 }
@@ -646,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #303030!important;
+    color: #575757!important;
 }
 
 .container {
@@ -672,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -770,12 +775,12 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #303030!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -817,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
